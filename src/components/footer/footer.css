@@ -1,0 +1,27 @@
+footer {
+   padding: 1rem 0.5rem;
+   background-color: grey;
+   display: grid;
+   place-items: center;
+   text-align: center;
+}
+footer p {
+   color: #fff;
+   font-size: 1.2rem;
+   font-style: italic;
+   display: flex;
+   align-items: center;
+   height: 100%;
+}
+.logo {
+   width: 1.5rem;
+   margin-right: 0.5rem;
+}
+@media screen and (min-width: 600px) {
+   footer p {
+      font-size: 1.8rem;
+   }
+   .logo {
+      width: 2.5rem;
+   }
+}

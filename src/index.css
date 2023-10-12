@@ -1,0 +1,43 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+html {
+   font-size: 62.5%;
+}
+:root {
+   --primary: #fa8862;
+   --secondary: #b14d3d;
+   --light-primary: #eba28a;
+}
+
+main {
+   width: 100%;
+   min-height: 100vh;
+   padding: 1rem;
+   background: linear-gradient(
+      45deg,
+      var(--light-primary),
+      var(--secondary),
+      var(--primary)
+   );
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.container {
+   width: 100%;
+   max-width: 820px;
+   height: 90%;
+   background-color: black;
+   padding: 0.5rem;
+}
+@media screen and (min-width: 600px) {
+   .container {
+      width: 85%;
+   }
+}
+
+/* 'https://api.frankfurter.app/latest?amount=100&from=EUR&to=USD' */

@@ -1,0 +1,57 @@
+.summary-wrapper {
+   width: 100%;
+   background-color: #fff;
+}
+.summary {
+   height: 15rem;
+   padding: 1.5rem;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   justify-content: space-around;
+}
+.summary h1 {
+   font-size: 2.4rem;
+   color: rgb(54, 54, 54);
+}
+.conversion-result-abbr {
+   font-size: 1.4rem;
+   color: gray;
+}
+.summary p {
+   color: gray;
+   margin-top: 1rem;
+}
+.chart {
+   width: 100%;
+   background-color: rgb(224, 224, 224);
+   padding: 1rem;
+}
+
+@media screen and (min-width: 420px) {
+   .summary {
+      padding: 3rem 1.5rem;
+   }
+   .chart {
+      min-height: 23rem;
+   }
+}
+
+@media screen and (min-width: 600px) {
+   .summary {
+      height: 20rem;
+   }
+   .summary h1 {
+      font-size: 3.5rem;
+      color: rgb(54, 54, 54);
+   }
+   .conversion-result-abbr {
+      font-size: 2rem;
+      color: gray;
+   }
+   .summary p {
+      color: gray;
+      font-size: 1.4rem;
+      margin-top: 2rem;
+   }
+}
